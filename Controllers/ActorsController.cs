@@ -20,7 +20,7 @@ namespace eTicket.Controllers
         public IActionResult Index()
         {
             var data = _appDBContext.Actors.ToList();
-            return View();
+            return View(data);
         }
     }
 }

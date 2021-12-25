@@ -209,7 +209,7 @@ namespace eTicket.Models.Data
                     new Actor_Movie()
                     {
                        ActorId=3,
-                       MovieId=5
+                       MovieId=1
                     }
                     });
                     context.SaveChanges();
