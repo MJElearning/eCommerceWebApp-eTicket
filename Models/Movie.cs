@@ -15,7 +15,7 @@ namespace eTicket.Models
         public int MovieId { get; set; }
         public string MovieName { get; set; }
         public string MovieDescription { get; set; }
-        public decimal TicketPrice { get; set; }
+        public double TicketPrice { get; set; }
         public string ImageURL { get; set; }
         public DateTime StartDate { get; set; }
         public DateTime EndDate { get; set; }
